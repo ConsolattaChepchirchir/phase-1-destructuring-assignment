@@ -1,29 +1,40 @@
-const farmAnimals = 'cow horse sheep pig chicken';
-
+const farmAnimals = ['cow','horse', 'sheep', 'pig', 'chicken']
+const [moo,neigh,baa,oink,cluck]=farmAnimals;
+const traditionalanimals =[ 'cow','sheep', 'pig','chicken']
+const [bessie,dolly,babe,little]=traditionalanimals;
+const animalcolors =[ 'cow','sheep', 'pig']
+const [blackAndWhite,black,pink]=animalcolors;
+console.log(moo,neigh,baa,oink,cluck)
 const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
+const [red,orange,yellow,green,blue,indigo,violet]=colors;
 
-const muppet = {
-  muppetName: 'Miss Piggy',
-  color: 'pink',
-  song: 'Never Before, Never Again',
-  job: 'Cast member of The Muppet Show',
-  partner: 'Kermit'
-};
+const colorrep = ['red', 'orange', 'yellow', 'green', 'blue','violet'];
+const [r,o,y,g,b,v]=colorrep;
 
-const nestedMuppet = {
-  nestedName: 'Kermit',
-  nestedColor: 'green',
-  album: {
-    theMuppetMovie: {
-      song1: 'Rainbow Connection',
-      song2: 'Moving Right Along',
-      song3: 'Never Before, Never Again',
-      song4: 'I Hope That Something Better Comes Along',
-    },
-  },
-  nestedJob: 'Host of The Muppet Show',
-  nestedPartner: 'Miss Piggy'
-};
+const indigocolor = ['indigo'];
+const [indg]=indigocolor;
+
+
+  const muppetName = 'Miss Piggy';
+  const color = 'pink';
+  const song = 'Never Before, Never Again';
+  const job = 'Cast member of The Muppet Show';
+  const partner = 'Kermit';
+
+//const nestedMuppet = {
+ // nestedName: 'Kermit',
+ // nestedColor: 'green',
+  //album: {
+    //theMuppetMovie: {
+      //song1: 'Rainbow Connection',
+      const song2 = 'Moving Right Along';
+      //song3: 'Never Before, Never Again',
+      const song4 = 'I Hope That Something Better Comes Along';
+  //  },
+  //},
+  const nestedJob= 'Host of The Muppet Show';
+  const nestedPartner= 'Miss Piggy';
+//};
 
 // Strings
 
